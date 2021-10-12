@@ -34,5 +34,5 @@ sed -i 's/exit 0/uci set network.wan.proto=pppoe\nuci set network.wan.username=\
 sed -i 's/OpenWrt_2.4/Redmi_1394/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/OpenWrt_5G/Redmi_1394_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/1234567890/zp961203/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=Redmi_1394_5G\n			set wireless.default_radio1.ssid=Redmi_1394/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i 's/set wireless.default_radio${devidx}.encryption=none/set wireless.default_radio${devidx}.encryption=sae-mixed\n			set wireless.default_radio${devidx}.key=zp961203/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+# sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=Redmi_1394_5G\n			set wireless.default_radio1.ssid=Redmi_1394/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+# sed -i 's/set wireless.default_radio${devidx}.encryption=none/set wireless.default_radio${devidx}.encryption=sae-mixed\n			set wireless.default_radio${devidx}.key=zp961203/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
