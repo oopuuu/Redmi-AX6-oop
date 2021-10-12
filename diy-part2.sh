@@ -28,7 +28,7 @@ sed -i 's/root:$1$WplwC1t5$HBAtVXABp7XbvVjG4193B.:18753:0:99999:7:::/root:$1$wFE
 echo net.netfilter.nf_conntrack_max=65535 >> package/base-files/files/etc/sysctl.conf
 
 # modify default pppoe
-sed -i 's/exit 0/uci set network.wan.proto=pppoe\nuci set network.wan.username=\'hzgsb05812203\'\nuci set network.wan.password=\'497765\'\nuci commit network\n/etc/init.d/network restart\nexit 0/g' package/lean/default-settings/files/zzz-default-settings
+#sed -i 's/exit 0/uci set network.wan.proto=pppoe\nuci set network.wan.username=\'hzgsb05812203\'\nuci set network.wan.password=\'497765\'\nuci commit network\n/etc/init.d/network restart\nexit 0/g' package/lean/default-settings/files/zzz-default-settings
 
 # Modify wifi Name & Password
 sed -i 's/OpenWrt_2.4/Redmi_1394/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
