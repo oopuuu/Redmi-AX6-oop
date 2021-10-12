@@ -31,6 +31,6 @@ echo net.netfilter.nf_conntrack_max=65535 >> package/base-files/files/etc/sysctl
 #sed -i 's/exit 0/uci set network.wan.proto=pppoe\nuci set network.wan.username=\'hzgsb05812203\'\nuci set network.wan.password=\'497765\'\nuci commit network\n/etc/init.d/network restart\nexit 0/g' package/lean/default-settings/files/zzz-default-settings
 
 # Modify wifi Name & Password
-sed -i 's/OpenWrt_2.4/Redmi_1394/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-sed -i 's/OpenWrt_5G/Redmi_1394_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt_2.4G/Redmi_1394_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt_5G/Redmi_1394/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/1234567890/zp961203/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
