@@ -14,7 +14,7 @@
 sed -i 's/10.10.10.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 
 # Modify device Name
-sed -i 's/'OpenWrt'/Redmi AX6/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Redmi AX6/g' package/base-files/files/bin/config_generate
 
 # Modify root Password
 sed -i 's/root::0:0:99999:7:::/root:$1$wFECtu7f$TN5VYXH0jHoWEH0ing1pY.:18888:0:99999:7:::/g' package/base-files/files/etc/shadow
