@@ -22,7 +22,7 @@ sed -i 's/root:$1$WplwC1t5$HBAtVXABp7XbvVjG4193B.:18753:0:99999:7:::/root:$1$wFE
 
 
 # Modify Web UI Theme
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify connection number
 echo net.netfilter.nf_conntrack_max=65535 >> package/base-files/files/etc/sysctl.conf
