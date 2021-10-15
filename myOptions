@@ -21,5 +21,6 @@ uci set vssr.@server_subscribe[0].subscribe_url='https://api.cn1.info/subscripti
 uci set adbyby.@adbyby[0].enable='1'
 
 uci commit
+/etc/init.d/network restart
 
 exit 0
