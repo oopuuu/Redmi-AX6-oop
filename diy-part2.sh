@@ -27,10 +27,6 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # Modify connection number
 echo net.netfilter.nf_conntrack_max=65535 >> package/base-files/files/etc/sysctl.conf
 
-# add default settings
-sed -i 's/exit 0//g' package/lean/default-settings/files/zzz-default-settings
-cat $CUSTOM_DEFAULT_CONF >> package/lean/default-settings/files/zzz-default-settings
-cat package/lean/default-settings/files/zzz-default-settings
 
 # Modify wifi Name & Password
 sed -i 's/OpenWrt_2.4G/Redmi_1394_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
