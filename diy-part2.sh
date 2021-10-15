@@ -29,7 +29,7 @@ echo net.netfilter.nf_conntrack_max=65535 >> package/base-files/files/etc/sysctl
 
 # add default settings
 sed -i 's/exit 0//g' package/lean/default-settings/files/zzz-default-settings
-cat myOptions >> package/lean/default-settings/files/zzz-default-settings
+cat $CUSTOM_DEFAULT_CONF >> package/lean/default-settings/files/zzz-default-settings
 cat package/lean/default-settings/files/zzz-default-settings
 
 # Modify wifi Name & Password
