@@ -10,6 +10,11 @@ uci set wireless.@wifi-device[0].legacy_rates='1'
 uci set wireless.@wifi-device[0].mu_beamformer='1'
 uci commit wireless
 #设置NAT加速转发
+uci set turboacc.config=turboacc
+uci set turboacc.config.sw_flow='1'
+uci set turboacc.config.hw_flow='1'
+uci set turboacc.config.sfe_flow='1'
+uci set turboacc.config.dns_caching='0'
 uci set turboacc.config.bbr_cca='1'
 uci set turboacc.config.fullcone_nat='1'
 uci commit turboacc
