@@ -82,7 +82,6 @@ CONFIG_DEFAULT_kmod-leds-gpio=y
 CONFIG_DEFAULT_kmod-nf-nathelper=y
 CONFIG_DEFAULT_kmod-nf-nathelper-extra=y
 CONFIG_DEFAULT_kmod-qca-nss-dp=y
-CONFIG_DEFAULT_kmod-qca-nss-drv-64=y
 CONFIG_DEFAULT_kmod-qca-nss-drv-pppoe-64=y
 CONFIG_DEFAULT_kmod-qca-nss-ecm-64=y
 CONFIG_DEFAULT_kmod-usb-dwc3=y
