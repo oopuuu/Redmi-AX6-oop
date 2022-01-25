@@ -21,7 +21,5 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 # 添加VSSR插件
 cd package/lean/  
 git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/luci-app-vssr.git  
-git clone https://github.com/jerrykuku/go-aliyundrive-webdav.git #主程序
-git clone https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav.git  
+git clone https://github.com/jerrykuku/luci-app-vssr.git
 
