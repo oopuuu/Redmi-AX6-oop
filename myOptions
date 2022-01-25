@@ -8,6 +8,9 @@ uci set wireless.@wifi-device[0].channel='44'
 uci set wireless.@wifi-device[0].htmode='HE160'
 uci set wireless.@wifi-device[0].legacy_rates='1'
 uci set wireless.@wifi-device[0].mu_beamformer='1'
+uci set wireless.@wifi-iface[0].ssid='Redmi_1394_5G'  //设置芯片自身发出的热点名称
+uci set wireless.@wifi-iface[0].encryption='none'  //开放式WiFi为none，想要加密选择psk2
+uci set wireless.@wifi-iface[0].key='zp961203' //自身WiFi密码，为none时无效
 uci commit wireless
 #设置NAT加速转发
 uci set turboacc.config=turboacc
