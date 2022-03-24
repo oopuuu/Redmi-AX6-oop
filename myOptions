@@ -25,13 +25,13 @@ uci set turboacc.config.bbr_cca='1'
 uci set turboacc.config.fullcone_nat='1'
 uci commit turboacc
 #设置VSSR
-uci set vssr.@server_subscribe[0]=server_subscribe
-uci set vssr.@server_subscribe[0].proxy='0'
-uci set vssr.@server_subscribe[0].auto_update_time='2'
-uci set vssr.@server_subscribe[0].auto_update='1'
-uci set vssr.@server_subscribe[0].filter_words='过期时间/剩余流量'
-uci set vssr.@server_subscribe[0].subscribe_url='https://api.cn1.info/subscription/984d108884f7c9e0cbbf50eff1b3d235.conf'
-uci commit vssr
+#uci set vssr.@server_subscribe[0]=server_subscribe
+#uci set vssr.@server_subscribe[0].proxy='0'
+#uci set vssr.@server_subscribe[0].auto_update_time='2'
+#uci set vssr.@server_subscribe[0].auto_update='1'
+#uci set vssr.@server_subscribe[0].filter_words='过期时间/剩余流量'
+#uci set vssr.@server_subscribe[0].subscribe_url='https://api.cn1.info/subscription/984d108884f7c9e0cbbf50eff1b3d235.conf'
+#uci commit vssr
 #Adbyby
 uci set adbyby.@adbyby[0].enable='1'
 uci commit adbyby
