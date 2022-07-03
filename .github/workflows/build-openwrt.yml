@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Boos4721/openwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: stable
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .configdef
   CUSTOM_DEFAULT_CONF: myOptions
