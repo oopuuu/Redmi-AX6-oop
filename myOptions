@@ -1,7 +1,7 @@
 #设置宽带账号密码
 uci set network.wan.proto=pppoe
-uci set network.wan.username='hzgsb05812203'
-uci set network.wan.password='497765' 
+uci set network.wan.username='057181067700'
+uci set network.wan.password='8380.5' 
 uci commit network
 #0是5Gwifi
 uci set wireless.@wifi-device[0].channel='44'
