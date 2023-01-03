@@ -4802,7 +4802,7 @@ CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
 # CONFIG_PACKAGE_luci-app-dump1090 is not set
 # CONFIG_PACKAGE_luci-app-dynapoint is not set
 # CONFIG_PACKAGE_luci-app-e2guardian is not set
-# CONFIG_PACKAGE_luci-app-easymesh is not set
+CONFIG_PACKAGE_luci-app-easymesh=y
 # CONFIG_PACKAGE_luci-app-eqos is not set
 # CONFIG_PACKAGE_luci-app-familycloud is not set
 # CONFIG_PACKAGE_luci-app-fileassistant is not set
@@ -7252,3 +7252,4 @@ CONFIG_PACKAGE_ubi-utils=y
 # end of Xorg
 
 CONFIG_OVERRIDE_PKGS="adbyby autosamba baidupcs-web ddns-scripts_aliyun ddns-scripts_dnspod dns2socks frp ipt2socks lua-maxminddb luci-app-vssr microsocks pdnsd-alt qBittorrent qBittorrent-static qttools simple-obfs tcpping trojan verysync"
+
