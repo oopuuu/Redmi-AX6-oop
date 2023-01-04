@@ -22,4 +22,6 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 cd package/lean/  
 git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/luci-app-vssr.git
+rm -rf luci-theme-argon  
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
 
