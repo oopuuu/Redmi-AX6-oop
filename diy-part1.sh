@@ -19,6 +19,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git packages https://github.com/coolsnowwolf/packages' >>feeds.conf.default
 echo 'src-git luci https://github.com/coolsnowwolf/luci' >>feeds.conf.default
+echo 'src-git smpackage https://github.com/kenzok8/small-package'
 
 # 添加VSSR插件
 cd package/lean/  
