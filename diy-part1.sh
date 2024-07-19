@@ -22,9 +22,9 @@ echo 'src-git luci https://github.com/coolsnowwolf/luci' >>feeds.conf.default
 echo 'src-git smpackage https://github.com/kenzok8/small-package'
 
 # 添加VSSR插件
-cd package/lean/  
-git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/luci-app-vssr.git
-rm -rf luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
+# cd package/lean/  
+# git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
+# git clone https://github.com/jerrykuku/luci-app-vssr.git
+# rm -rf luci-theme-argon  
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
 
